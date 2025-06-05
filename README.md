@@ -111,7 +111,7 @@ python main.py abc-defg-hij
 Join a room using its URL with the first 5 accounts from private_key.txt:
 
 ```Bash
-python main.py [https://huddle01.app/room/abc-defg-hij](https://huddle01.app/room/abc-defg-hij) -n 5
+python main.py https://huddle01.app/room/abc-defg-hij -n 5
 ```
 Run without arguments (will prompt for Room ID):
 
