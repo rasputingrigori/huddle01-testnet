@@ -88,13 +88,12 @@ python main.py [room_id_or_url] [-n num_accounts]
 ```
 
 ### Argumen:
-room_id_or_url (opsional):
-
+`room_id_or_url (opsional):`
 ID Ruang Huddle01 (misalnya, abc-defg-hij).
 Atau URL ruang Huddle01 lengkap (misalnya, https://huddle01.app/room/abc-defg-hij).
 Jika tidak disediakan, skrip akan meminta Anda untuk memasukkannya.
-`-n num_accounts, --num_accounts num_accounts (opsional):`
 
+`-n num_accounts, --num_accounts num_accounts (opsional):`
 Jumlah akun yang akan digunakan dari `private_key.txt.`
 Jika 0 (standar) atau tidak ditentukan, semua akun yang valid dari `private_key.txt` akan digunakan. Jika diberikan angka positif, sejumlah akun tersebut akan dimuat.
 

@@ -88,12 +88,12 @@ python main.py [room_id_or_url] [-n num_accounts]
 ```
 ### Arguments:
 
-room_id_or_url (optional):
-`The Huddle01 Room ID (e.g., abc-defg-hij).`
+`room_id_or_url (optional):`
+The Huddle01 Room ID (e.g., abc-defg-hij).
 Or the full Huddle01 room URL (e.g., https://huddle01.app/room/abc-defg-hij).
 If not provided, the script will prompt you to enter it.
-`-n num_accounts, --num_accounts num_accounts (optional):`
 
+`-n num_accounts, --num_accounts num_accounts (optional):`
 The number of accounts to use from `private_key.txt.`
 If 0 (default) or not specified, all valid accounts from `private_key.txt` will be used.
 If a positive number is given, that many accounts will be loaded. 
